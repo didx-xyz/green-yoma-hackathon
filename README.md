@@ -30,11 +30,15 @@ Impact project management:
 5. Communicate and interact with participating youth (support)
 
 **OPTIONS TO CONSIDER:**
+A
 1. We can rebrand the IXO mobile app as Yoma
 2. Whitelabel IXO as Green Yoma relayer
 3. Enable DID auth to Green Yoma relayer
 4. Test out alphabond impact funding (bonding curves) on a project
 i.e. develop a complete standalone Green Yoma platform with mobile app.
+   
+B
+1. We can reuse a lot of code from the [IXO web portal](https://github.com/ixofoundation/ixo-webclient) react code 
 
 
 
