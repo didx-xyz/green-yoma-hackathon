@@ -7,6 +7,9 @@ const main = async () => { // <- the async wrapper function
         client = makeClient(wallet)
     // .... rest of your code
     console.log(wallet);
-    console.log(client);
+    console.log(await client.staking.delegatorRewards('ixo1vke3x5rruzdc0aue9z8rdrsvky4688afh8k073'));
+    console.log(await client.listProjects()) //We will need to filter on yoma projects. That is why we want a relayer, so the API will already only return yoma projects.
+    // console.log(await client.listClaims('did:ixo:V55sPyDsyfJ6Enb4V9EfXo','')) //tplId is the template id that a specific project use
+    // console.log(await client.getSecpAccount())
 }
 main()
