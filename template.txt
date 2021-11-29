@@ -1,0 +1,98 @@
+{
+  data: {
+    claimStats: { currentSuccessful: 0, currentRejected: 0 },
+    agentStats: {
+      evaluators: 0,
+      evaluatorsPending: 0,
+      serviceProviders: 0,
+      serviceProvidersPending: 0,
+      investors: 0,
+      investorsPending: 0
+    },
+    ixo: { totalStaked: 0, totalUsed: 0 },
+    sdgs: [ 3 ],
+    socialMedia: {
+      facebookLink: '',
+      instagramLink: '',
+      twitterLink: '',
+      webLink: ''
+    },
+    '@type': 'Project',
+    name: 'Festyle ',
+    description: 'Established in 2015, Festyle aims to promote the empowerment and employment of women. It employs housewives, who are not tied to family obligations 24/7, to design, prepare and pack ingredients of healthy homemade dishes. \n' +
+      'In the HOME-trepreneur project, around 10 housewives will be given a 6-week training on skills that can help them to become an enterpreneur, including self-awareness, creativity, problem-solving skills, etc. ',
+    image: 'https://pds_pandora.ixo.world/public/p84o8ln255ckkp3ryk4',
+    imageDescription: 'Hand pick food box made by housewives',
+    brand: 'Festyle ',
+    logo: 'https://pds_pandora.ixo.world/public/3zgtiwv9fn5kkp3rq9c',
+    location: 'HK',
+    '@context': 'https://schema.ixo.foundation/entity:2383r9riuew',
+    entitySchemaVersion: '1.0.0',
+    relayerNode: 'did:sov:Rmb6Rd1CU6k74FM2xzy6Do',
+    startDate: '2021-02-03T00:00:00.000Z',
+    endDate: '2021-02-28T00:00:00.000Z',
+    status: 'Live',
+    stage: 'Ended',
+    version: { versionNumber: '1', effectiveDate: '2021-02-02T00:00:00.000Z' },
+    terms: { '@type': 'FreeOpenSource', paymentTemplateId: 't' },
+    privacy: { pageView: 'Public', entityView: 'Visible', credentials: [] },
+    creator: {
+      id: 't',
+      displayName: 'Ding-Ding, Yip Hiu Wai',
+      logo: 'https://pds_pandora.ixo.world/public/sohok593lukkp3vqqy',
+      location: 'HK',
+      email: 'jessica@shanzhai.city',
+      website: 'https://www.festyle.hk/',
+      mission: 'women empowerment',
+      credentialId: 't'
+    },
+    owner: {
+      id: 't',
+      displayName: 'Ding-Ding, Yip Hiu Wai',
+      logo: 'https://pds_pandora.ixo.world/public/qcbkew2cq7dkkp3xenl',
+      location: 'HK',
+      email: 'jessica@shanzhai.city',
+      website: 'https://www.festyle.hk/',
+      mission: 'women empowerment'
+    },
+    ddoTags: [ [Object], [Object], [Object], [Object] ],
+    displayCredentials: { '@context': 'https://www.w3.org/2018/credentials/v1', items: [] },
+    page: { cid: '7xe5wg1jqobkkp3z028', version: '1.0.0', content: [Object] },
+    entityClaims: {
+      '@context': 'https://schema.ixo.world/claims:3r08webu2eou',
+      items: [Array]
+    },
+    linkedEntities: [],
+    fees: {
+      '@context': 'https://schema.ixo.world/fees/ipfs3r08webu2eou',
+      items: []
+    },
+    stake: {
+      '@context': 'https://schema.ixo.world/staking/ipfs3r08webu2eou',
+      items: []
+    },
+    nodes: {
+      '@context': 'https://schema.ixo.world/nodes/ipfs3r08webu2eou',
+      items: [Array]
+    },
+    funding: {
+      '@context': 'https://schema.ixo.world/funding/ipfs3r08webu2eou',
+      items: []
+    },
+    keys: { '@context': 'https://www.w3.org/ns/did/v1', items: [] },
+    service: [],
+    data: [],
+    createdOn: '2021-02-03T07:27:40.000Z',
+    createdBy: 'did:sov:BnVm8NhqSoZfmseZoHNTNi',
+    nodeDid: 'did:ixo:Sdjhti1ywgWgQJqtgYrGzJ',
+    claims: [],
+    agents: []
+  },
+  _id: '601a5071213327001a2dce31',
+  txHash: '256aa0ca2e011cdf1850f17ff8a6b19d1773ee4ed7b4a452f8e40573f5addaff',
+  senderDid: 'did:sov:BnVm8NhqSoZfmseZoHNTNi',
+  projectDid: 'did:ixo:V55sPyDsyfJ6Enb4V9EfXo',
+  pubKey: 'GJMwhhJyj8gFppwj2a8QmiDYWU9foaQoewfPZL4Sh2DD',
+  __v: 0,
+  status: 'CREATED'
+}
