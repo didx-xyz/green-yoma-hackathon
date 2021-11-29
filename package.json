@@ -1,0 +1,23 @@
+{
+  "name": "green-yoma-hackathon",
+  "version": "1.0.0",
+  "description": "![Green Yoma Hackatom 2021](green_yoma.png \"Green Yoma Hackatom 2021\") The aim of the green yoma hackatom 2021 is to establish a link between Yoma Platform and Green Yoma (an IXO relayer) so that youth can access impact opportunities and contribute towards projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/didx-xyz/green-yoma-hackathon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/didx-xyz/green-yoma-hackathon/issues"
+  },
+  "homepage": "https://github.com/didx-xyz/green-yoma-hackathon#readme",
+  "dependencies": {
+    "@ixo/client-sdk": "^1.11.1"
+  }
+}

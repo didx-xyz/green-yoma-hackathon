@@ -2,6 +2,13 @@
 ![Green Yoma Hackatom 2021](green_yoma.png "Green Yoma Hackatom 2021")
 The aim of the green yoma hackatom 2021 is to establish a link between Yoma Platform and Green Yoma (an IXO relayer) so that youth can access impact opportunities and contribute towards projects.
 
+## Getting Started
+
+Install packages
+* npm install
+Run indy-sdk calls (this will become our server)
+* node index.js
+
 Both Yoma and Green Yoma rely on DID methods to identify and sign verifiable credentials. Yoma use `did:sov` while Green Yoma use `did:ixo`.
 The integration between the two platforms start with the DID layer where youth own their wallets and associated DIDs.
 
