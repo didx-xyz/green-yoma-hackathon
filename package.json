@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/didx-xyz/green-yoma-hackathon#readme",
   "dependencies": {
-    "@ixo/client-sdk": "^1.11.1"
+    "@ixo/client-sdk": "^1.11.1",
+    "dotenv": "^10.0.0"
   }
 }
