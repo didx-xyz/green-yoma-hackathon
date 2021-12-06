@@ -17,6 +17,11 @@ const main = async () => { // <- the async wrapper function
     try {
       await client.register()
 
+
+      let projectDID = "did:ixo:4ECxxCYxyYW2vpJv3YkFfQ"
+      // let project  = await client.getProject(projectDID)
+      // console.log(project)
+
       await createAgent(client)
 
       // Lets not do this. I just spammed the network lol
@@ -63,7 +68,7 @@ const main = async () => { // <- the async wrapper function
 async function createAgent(client) {
 
   let projectDID = "did:ixo:4ECxxCYxyYW2vpJv3YkFfQ"
-
+  let projectDID2 = "did:ixo:G9HX1eXxT6LRkXR8QtNRjy"
   let ownerDID = "did:sov:CYCc2xaJKrp8Yt947Nc6jd"
 
   let lohanDID = "did:sov:QFBonAeTtahkZmSnxpsAHx"
@@ -78,16 +83,18 @@ async function createAgent(client) {
 
 
 
-  // let response = await client.createAgent(projectDID, agentRecord)
+  let response = await client.createAgent(projectDID2, agentRecord)
 
-  // console.log(response)
+  // console  // let response = await client.createAgent(projectDID2, agentRecord)
+
+  console.log(response)
 
   let updates = {
     status: "1",
     role: "SA"
   }
 
-  let updateResponse = await client.updateAgent(projectDID, lohanDID, updates)
+  let updateResponse = await client.updateAgent(projectDID2, lohanDID, updates)
 
   console.log(updateResponse)
 }
